@@ -8,7 +8,7 @@
 
 | Package | What to use |
 | --- | --- |
-| [Test Utility installer 1.94 VPK](https://github.com/alternativeConsience/lumaXMB/releases/download/alpha-2026-10-24/lumaXMB-Installer-1.94.vpk) | Start here for Vita: installs lumaXMB **2.02 / r239**, the Adrenaline helper and resources. |
+| [Test Utility installer 1.98 VPK](https://github.com/alternativeConsience/lumaXMB/releases/download/alpha-2026-10-24/lumaXMB-Installer-1.98.vpk) | Start here for Vita: installs lumaXMB **2.05 / r253**, the Adrenaline helper and resources. |
 | [Companion app for Windows](https://github.com/alternativeConsience/lumaXMB/releases/download/alpha-2026-10-24/lumaXMB-Companion-Windows.exe) | Completely optional media, artwork, transfer, theme and log tools. |
 | [Desktop Engine / Wallpaper Engine package](https://github.com/alternativeConsience/lumaXMB/releases/download/alpha-2026-10-24/lumaXMB-Desktop-Engine-Wallpaper-Engine-2026-10-25.zip) | Windows desktop waves and live controls. [Installation guide](https://alternativeconsience.github.io/lumaXMB/desktop-engine.html#install). |
 
@@ -48,12 +48,18 @@ Save your PC work before choosing **End host application**. That option requests
 
 While inside lumaXMB, including its integrated desktop client, normal PS-button access to LiveArea is intentionally restricted. An unresponsive PS button here does not necessarily mean the Vita has frozen. Use the shortcuts above to leave streaming, then use lumaXMB’s LiveArea action when you want to return to the system interface.
 
-With a temporary or permanent session active, supported games launched through lumaXMB use the native PS menu with **Return to XMB** and **Return to LiveArea** options. These return features remain experimental, and another plugin that changes PS-button or quick-menu behavior may interfere.
+With a temporary session active, supported games launched through lumaXMB use the native PS menu with **Return to XMB** and **Return to LiveArea** options. These return features remain experimental, and another plugin that changes PS-button or quick-menu behavior may interfere.
 
-**Temporary sessions last until stopped or the Vita restarts. Permanent sessions remain configured across restarts until disabled or removed.** Start with a temporary session, follow Test Utility’s restart prompts, and disable permanent sessions and restart before switching to a temporary session. Session support and autoboot are separate; keep autoboot disabled during alpha testing.
+**Temporary sessions remain available until stopped or the Vita restarts. Permanent sessions and autoboot are unavailable in this alpha.** Open Test Utility 1.98 after updating: it preserves backups, clears permanent-session settings and removes only its own boot entry. If prompted, restart before setup or a temporary session. Unrelated plugins, media, games and saves are retained. A device already unable to boot needs recovery first.
 
 ## Alpha feedback
 
-**Participate in the alpha test.** Expect bugs and unfinished features. Built on a PS Vita 1000 with 3.60 Ensō; compatibility may vary. **Keep autoboot off.** Temporary and permanent sessions are explained in the [illustrated guide](https://alternativeconsience.github.io/lumaXMB/#setup).
+**Participate in the alpha test.** Expect bugs and unfinished features. Built on a PS Vita 1000 with 3.60 Ensō; compatibility may vary. **Keep autoboot off.** Temporary sessions and the permanent-session restriction are explained in the [illustrated guide](https://alternativeconsience.github.io/lumaXMB/#setup).
 
 [Report an issue](https://github.com/alternativeConsience/lumaXMB/issues) with the build, Vita model/firmware, reproduction steps and logs when available. Feedback helps improve the next build quickly.
+
+## Installer 1.98 update
+
+Spotify is temporarily unavailable. Support will return in a future revision. Saved account data is retained.
+
+Permanent-session startup is not fixed by this release; activation is disabled. Do not re-enable it through an older utility or external plugin tool. Temporary sessions remain experimental. Build and package checks are distinct from physical-device validation.
