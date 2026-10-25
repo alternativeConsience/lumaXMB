@@ -11,12 +11,12 @@ An XMB for your PlayStation Vita. Games, music, video and your own look, in a co
 
 Start with the **Test Utility installer** for the Vita. The **Companion app** for Windows is completely optional.
 
-Test package links are being prepared. This repository contains the project page and its images; it does not contain the application source code.
+[Alpha test files on GitHub](https://github.com/alternativeConsience/lumaXMB/releases/tag/alpha-2026-10-24). This repository hosts the project page and application downloads.
 
 | Application | Use |
 | --- | --- |
-| Test Utility installer VPK | Start here: installs Test Utility, which installs lumaXMB and the Adrenaline helper |
-| Companion app for Windows | Completely optional tools for transfers, themes, media and logs |
+| [Test Utility installer 1.94 VPK](https://github.com/alternativeConsience/lumaXMB/releases/download/alpha-2026-10-24/lumaXMB-Installer-1.94.vpk) | Start here: Test Utility installs bundled lumaXMB 2.02 / r239, the Adrenaline helper and required resources |
+| [Companion app for Windows](https://github.com/alternativeConsience/lumaXMB/releases/download/alpha-2026-10-24/lumaXMB-Companion-Windows.exe) | Completely optional tools for transfers, themes, media and logs |
 
 ## On your Vita
 
@@ -58,7 +58,7 @@ lumaXMB opens and plays media without a session. A session enables the native in
 
 ## Optional Windows companion
 
-The companion is completely optional. lumaXMB works without it.
+The companion is completely optional. lumaXMB works without it. Download and open the standalone Windows EXE; no Python installation is needed.
 
 - **Media Manager:** browse games, music, movies and photos on the Vita; add albums or artist folders, MP4 files with posters, and photo folders. Manage Vita/PSP/PS1 cover art, use your PNG/JPEG or search online, and configure extra library folders. Transfers use USB or FTP and place media where lumaXMB expects it.
 - **Install and update:** transfer VPKs over USB or FTP, stage supported updates, and share paired Wi-Fi updates.
