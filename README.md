@@ -9,13 +9,14 @@ An XMB for your PlayStation Vita. Games, music, video and your own look, in a co
 
 ## Downloads
 
+Start with the **Test Utility installer** for the Vita. The **Companion app** for Windows is completely optional.
+
 Test package links are being prepared. This repository contains the project page and its images; it does not contain the application source code.
 
 | Application | Use |
 | --- | --- |
-| lumaXMB installer VPK | Test Utility with bundled lumaXMB setup and Launch Assistant |
-| Standalone lumaXMB VPK | Normal VitaShell installation |
-| lumaXMB Companion 2.0 for Windows | Completely optional tools for transfers, themes, media and logs |
+| Test Utility installer VPK | Start here: installs Test Utility, which installs lumaXMB and the Adrenaline helper |
+| Companion app for Windows | Completely optional tools for transfers, themes, media and logs |
 
 ## On your Vita
 
@@ -31,25 +32,35 @@ Test package links are being prepared. This repository contains the project page
 You need a homebrew-enabled Vita and VitaShell. **The companion app is completely optional.** Normal drag-and-drop VPK transfer over USB, or FTP transfer, works.
 
 1. Copy the installer VPK to `ux0:/data/install/`.
-2. Install it in VitaShell. Open Test Utility and choose **Set up lumaXMB** to install the bundled app and Launch Assistant.
+2. Install it in VitaShell to add Test Utility. Open it and choose **Set up lumaXMB** to install the bundled app, Adrenaline helper and required resources. Same or newer installed app versions are retained; session and autoboot settings stay separate.
 3. Choose **Launch lumaXMB** in Test Utility, or open its bubble. Complete Initial Setup to choose your look and scan your library.
 
-Using the standalone lumaXMB VPK? Copy it to the Vita, install it in VitaShell, and launch its bubble directly.
+### Test Utility actions
 
-### Optional plugin setup
+- **Set up lumaXMB:** verifies bundled packages, installs missing or older apps and required resources, and keeps same or newer app versions.
+- **Launch lumaXMB:** opens the installed app without changing session mode.
+- **Maintenance → Install staged XMB update:** installs a verified update from the paired Companion workflow; close lumaXMB first. Normal VitaShell installation also works.
+- **Maintenance → Full verification:** checks packages, installed apps and sounds without replacing files.
 
-- **Temporary, until reboot:** Test Utility → **Temporary global session** → **Start temporary session**. Confirm with ×. If setup restarts the Vita, reopen Test Utility and start the session again.
-- **Permanent, across reboots:** Test Utility → **Permanent global session** → **Install / enable permanent session**. Confirm with × and let the Vita restart. The same menu can disable or remove it later.
+### Optional session integration
 
-**Autoboot is not recommended and may not function in this alpha. Keep it off.** Permanent sessions and autoboot are separate options.
+lumaXMB opens and plays media without a session. A session enables the native in-game menu and return-to-lumaXMB integration around games and apps. Choose one mode; temporary is a useful first step for alpha testing.
+
+**Temporary, for this boot:** session features last until you stop the session or restart. Close lumaXMB, then choose Test Utility → **Temporary global session** → **Start temporary session**. Press × again to confirm. If prerequisite setup restarts the Vita, reopen Test Utility and start the session again. To end it, choose **Stop temporary session** or restart. Start it again after a restart when you want the integration.
+
+**Permanent, across reboots:** keeps session integration enabled through restarts without starting a temporary session each time. Close lumaXMB and stop any temporary session. Choose **Permanent global session** → **Install / enable permanent session**, confirm with × and let the Vita restart. To turn it off, use **Disable sessions / prepare update** or **Remove permanent session** in that menu, then follow the restart prompt.
+
+**Switching modes:** disable the permanent session and restart before starting a temporary one. **Session status** shows the current state. PSP launch paths also need Adrenaline installed and configured.
+
+**Keep autoboot off.** A permanent session does not automatically open lumaXMB. Autoboot is a separate option, is not recommended and may not function in this alpha.
 
 ## Optional Windows companion
 
 The companion is completely optional. lumaXMB works without it.
 
+- **Media Manager:** browse games, music, movies and photos on the Vita; add albums or artist folders, MP4 files with posters, and photo folders. Manage Vita/PSP/PS1 cover art, use your PNG/JPEG or search online, and configure extra library folders. Transfers use USB or FTP and place media where lumaXMB expects it.
 - **Install and update:** transfer VPKs over USB or FTP, stage supported updates, and share paired Wi-Fi updates.
 - **Themes:** load the Vita’s current look, preview appearance settings and waves, and save named presets back to the console.
-- **Media Manager:** add media, manage artwork and configure library folders.
 - **Logs:** collect diagnostic information into a bundle for a bug report.
 
 Open the Windows app, connect by USB or enter the Vita’s FTP address, then choose the task you need.
@@ -58,7 +69,7 @@ Open the Windows app, connect by USB or enter the Vita’s FTP address, then cho
 
 Game list, Vita and PSP Coverflow, game grid, movie title navigation, movie Coverflow, music artist and album lists, album Coverflow, Now Playing, Initial Setup, Orbit and wave/startup settings are captured from lumaXMB 1.99 / r236 in OLED Vivid Tangerine.
 
-Screenshots are losslessly encoded from native captures. lumaXMB was captured in Vita3K with idle dimming disabled; Companion 2.0 uses compact native Windows captures. Physical launch and return validation is separate.
+Screenshots are losslessly encoded from native captures. lumaXMB was captured in Vita3K with idle dimming disabled; Companion app uses compact native Windows captures, including the populated Media Manager and game artwork controls. Library examples use a clean capture profile. Physical launch and return validation is separate.
 
 View the current banners and all screenshots on the [project page](https://alternativeConsience.github.io/lumaXMB/).
 
