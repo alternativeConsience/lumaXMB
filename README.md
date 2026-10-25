@@ -3,7 +3,7 @@
 
 An XMB for your PlayStation Vita. Games, music, video and your own look, in a controller-first interface.
 
-**This is an alpha testing page. Expect bugs and unfinished features.**
+**Participate in the alpha test.** This is a test build. Feedback, reproducible bug reports and logs help identify problems and guide quick improvements. Expect bugs and unfinished features.
 
 [View the project page](https://alternativeConsience.github.io/lumaXMB/) · [Quick installation](#quick-installation) · [Optional companion](#optional-windows-companion) · [Report an issue](https://github.com/alternativeConsience/lumaXMB/issues)
 
@@ -73,9 +73,11 @@ Game list, Vita Coverflow, game grid, movie title navigation, movie Coverflow, m
 
 Screenshots are losslessly encoded from native captures. lumaXMB was captured in Vita3K with idle dimming disabled; Companion app uses compact native Windows captures, including the populated Media Manager and game artwork controls. Library examples use a clean capture profile. Physical launch and return validation is separate.
 
-The appearance gallery uses deep Sapphire, Emerald and Violet gradients, with Soft PSP, Layered silk and Folded currents waves. Previous PSP layout and wave examples have been replaced. The illustrated installation guide includes Test Utility 1.91 menus and an in-progress installation screen; emulator captures do not demonstrate a completed physical-device installation.
+The appearance gallery compares PSP, PS3 and Vita layouts with Games selected. PSP uses Vivid Layered Silk with its dedicated unboxed clock and three-segment battery. Vita uses its simple status display, and PS3 uses its status strip. Previous PSP layout and wave examples have been replaced. The illustrated installation guide includes Test Utility 1.91 menus and an in-progress installation screen; emulator captures do not demonstrate a completed physical-device installation.
 
-View the current banners and all screenshots on the [project page](https://alternativeConsience.github.io/lumaXMB/). Choose Pearl, Silver or Dark appearance; the page remembers your choice. Gentle scroll reveals respect reduced-motion preferences. The original Test Utility soundtrack is optional: press Play to load it, then use Pause and Volume. Nothing plays automatically.
+View the current banners and all screenshots on the [project page](https://alternativeConsience.github.io/lumaXMB/). Choose Pearl, Silver or Dark appearance; the page remembers your choice. Gentle scroll reveals respect reduced-motion preferences. The original Test Utility soundtrack tries to autoplay when permitted by the browser; Play/Pause and Volume remain available.
+
+[lumaXMB Wave Engine for Wallpaper Engine](https://alternativeConsience.github.io/lumaXMB/wave-engine.html) has a separate lightweight page with clean captures of glass waves, gradients and motion setups.
 
 ## Feedback
 
