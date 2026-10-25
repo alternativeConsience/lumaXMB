@@ -73,7 +73,9 @@ Game list, Vita and PSP Coverflow, game grid, movie title navigation, movie Cove
 
 Screenshots are losslessly encoded from native captures. lumaXMB was captured in Vita3K with idle dimming disabled; Companion app uses compact native Windows captures, including the populated Media Manager and game artwork controls. Library examples use a clean capture profile. Physical launch and return validation is separate.
 
-View the current banners and all screenshots on the [project page](https://alternativeConsience.github.io/lumaXMB/).
+The appearance gallery adds the PSP layout in Pearl and Gold, plus Soft PSP and Layered silk waves. The illustrated installation guide includes Test Utility 1.91 menus and an in-progress installation screen; emulator captures do not demonstrate a completed physical-device installation.
+
+View the current banners and all screenshots on the [project page](https://alternativeConsience.github.io/lumaXMB/). Choose Pearl, Silver or Dark appearance; the page remembers your choice. Gentle scroll reveals respect reduced-motion preferences. The original Test Utility soundtrack is optional: press Play to load it, then use Pause and Volume. Nothing plays automatically.
 
 ## Feedback
 
