@@ -8,7 +8,7 @@
 
 | Package | What to use |
 | --- | --- |
-| [Test Utility installer 1.98 VPK](https://github.com/alternativeConsience/lumaXMB/releases/download/alpha-2026-10-24/lumaXMB-Installer-1.98.vpk) | Start here for Vita: installs lumaXMB **2.05 / r253**, the Adrenaline helper and resources. |
+| [Test Utility installer 1.99 VPK](https://github.com/alternativeConsience/lumaXMB/releases/download/alpha-2026-10-24/lumaXMB-Installer-1.99.vpk) | Start here for Vita: installs lumaXMB **2.06 / r254**, the Adrenaline helper and resources. |
 | [Companion app for Windows](https://github.com/alternativeConsience/lumaXMB/releases/download/alpha-2026-10-24/lumaXMB-Companion-Windows.exe) | Completely optional media, artwork, transfer, theme and log tools. |
 | [Desktop Engine / Wallpaper Engine package](https://github.com/alternativeConsience/lumaXMB/releases/download/alpha-2026-10-24/lumaXMB-Desktop-Engine-Wallpaper-Engine-2026-10-25.zip) | Windows desktop waves and live controls. [Installation guide](https://alternativeconsience.github.io/lumaXMB/desktop-engine.html#install). |
 
@@ -50,7 +50,7 @@ While inside lumaXMB, including its integrated desktop client, normal PS-button 
 
 With a temporary session active, supported games launched through lumaXMB use the native PS menu with **Return to XMB** and **Return to LiveArea** options. These return features remain experimental, and another plugin that changes PS-button or quick-menu behavior may interfere.
 
-**Temporary sessions remain available until stopped or the Vita restarts. Permanent sessions and autoboot are unavailable in this alpha.** Open Test Utility 1.98 after updating: it preserves backups, clears permanent-session settings and removes only its own boot entry. If prompted, restart before setup or a temporary session. Unrelated plugins, media, games and saves are retained. A device already unable to boot needs recovery first.
+**Temporary sessions remain available until stopped or the Vita restarts. Permanent sessions and autoboot are unavailable in this alpha.** Open Test Utility 1.99 after updating: it preserves backups, clears permanent-session settings and removes only its own boot entry. If prompted, restart before setup or a temporary session. Unrelated plugins, media, games and saves are retained. A device already unable to boot needs recovery first.
 
 ## Alpha feedback
 
@@ -58,8 +58,10 @@ With a temporary session active, supported games launched through lumaXMB use th
 
 [Report an issue](https://github.com/alternativeConsience/lumaXMB/issues) with the build, Vita model/firmware, reproduction steps and logs when available. Feedback helps improve the next build quickly.
 
-## Installer 1.98 update
+## Installer 1.99 update
 
 Spotify is temporarily unavailable. Support will return in a future revision. Saved account data is retained.
 
 Permanent-session startup is not fixed by this release; activation is disabled. Do not re-enable it through an older utility or external plugin tool. Temporary sessions remain experimental. Build and package checks are distinct from physical-device validation.
+
+Installer 1.99 removes the Select+L+R temporary-session stop shortcut, restores the game artwork download option in XMB, and adds a mounted lookup for encrypted installed game backgrounds. Use Test Utility Stop or reboot to end a temporary session. Reboot before starting the updated session module. Background mounting and display still require physical-device validation.
