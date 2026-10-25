@@ -56,7 +56,7 @@ Open the Windows app, connect by USB or enter the Vita’s FTP address, then cho
 
 ## Current-build screenshots
 
-Vita and PSP Coverflow, game grid, movie Coverflow, album Coverflow, Now Playing, Initial Setup, Orbit and wave/startup settings are captured from lumaXMB 1.99 / r236 in OLED Vivid Tangerine.
+Game list, Vita and PSP Coverflow, game grid, movie title navigation, movie Coverflow, music artist and album lists, album Coverflow, Now Playing, Initial Setup, Orbit and wave/startup settings are captured from lumaXMB 1.99 / r236 in OLED Vivid Tangerine.
 
 Screenshots are losslessly encoded from native captures. lumaXMB was captured in Vita3K with idle dimming disabled; Companion 2.0 uses compact native Windows captures. Physical launch and return validation is separate.
 
