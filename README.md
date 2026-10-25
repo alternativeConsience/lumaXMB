@@ -29,7 +29,9 @@ Test package links are being prepared. This repository contains the project page
 
 ## Quick installation
 
-You need a homebrew-enabled Vita and VitaShell. **The companion app is completely optional.** Normal drag-and-drop VPK transfer over USB, or FTP transfer, works.
+You need a homebrew-enabled Vita running firmware **3.60 or higher**, with VitaShell. **The companion app is completely optional.** Normal drag-and-drop VPK transfer over USB, or FTP transfer, works.
+
+**Compatibility:** Built on a PS Vita 1000 running 3.60 Ensō. Compatibility may vary.
 
 1. Copy the installer VPK to `ux0:/data/install/`.
 2. Install it in VitaShell to add Test Utility. Open it and choose **Set up lumaXMB** to install the bundled app, Adrenaline helper and required resources. Same or newer installed app versions are retained; session and autoboot settings stay separate.
