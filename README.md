@@ -19,10 +19,8 @@ Test package links are being prepared. This repository contains the project page
 
 ## On your Vita
 
-
-
-- Browse Vita games, homebrew, PSP and PS1 entries, with favorites, library groups and Coverflow.
-- Play music and movies, browse photos, and use cover art and media previews.
+- Browse Vita games, homebrew, PSP and PS1 entries, with favorites, library groups, Coverflow and a cover grid.
+- Browse albums, use Now Playing, play movies and view photos with cover art and previews.
 - Make the XMB your own with PS3, PSP and Vita-inspired presets, waves, colors, layouts, backgrounds, sounds and motion.
 - Browse files and connect over FTP or USB storage.
 - Test the experimental vitaTUBE, vitaLINK and Spotify integrations.
@@ -33,25 +31,20 @@ You need a homebrew-enabled Vita and VitaShell. **The companion app is completel
 
 1. Copy the installer VPK to `ux0:/data/install/`.
 2. Install it in VitaShell. Open Test Utility and choose **Set up lumaXMB** to install the bundled app and Launch Assistant.
-3. Launch lumaXMB and complete first-time setup: choose your look, confirm your library options and finish the scan.
+3. Choose **Launch lumaXMB** in Test Utility, or open its bubble. Complete Initial Setup to choose your look and scan your library.
 
 Using the standalone lumaXMB VPK? Copy it to the Vita, install it in VitaShell, and launch its bubble directly.
 
-
-
 ### Optional plugin setup
 
+- **Temporary, until reboot:** Test Utility → **Temporary global session** → **Start temporary session**. Confirm with ×. If setup restarts the Vita, reopen Test Utility and start the session again.
+- **Permanent, across reboots:** Test Utility → **Permanent global session** → **Install / enable permanent session**. Confirm with × and let the Vita restart. The same menu can disable or remove it later.
 
-
-- **Temporary plugins:** active for the current session, until reboot. A practical starting point for testing.
-- **Permanent plugins:** configured to stay active across reboots; managed through Test Utility.
-
-**Autoboot is not recommended and may not function in this alpha. Keep it off.** Permanent plugins and autoboot are separate options.
+**Autoboot is not recommended and may not function in this alpha. Keep it off.** Permanent sessions and autoboot are separate options.
 
 ## Optional Windows companion
 
 The companion is completely optional. lumaXMB works without it.
-
 
 - **Install and update:** transfer VPKs over USB or FTP, stage supported updates, and share paired Wi-Fi updates.
 - **Themes:** load the Vita’s current look, preview appearance settings and waves, and save named presets back to the console.
@@ -60,10 +53,9 @@ The companion is completely optional. lumaXMB works without it.
 
 Open the Windows app, connect by USB or enter the Vita’s FTP address, then choose the task you need.
 
-
-
 ## Current-build screenshots
 
+Game Coverflow, game grid, movie Coverflow, album Coverflow, Now Playing, Initial Setup and Orbit are captured from lumaXMB 1.98 / r235 in OLED Vivid Tangerine.
 
 View the current banners and all screenshots on the [project page](https://alternativeConsience.github.io/lumaXMB/).
 
