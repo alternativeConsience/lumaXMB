@@ -20,6 +20,7 @@ Test package links are being prepared. This repository contains the project page
 ## On your Vita
 
 - Browse Vita games, homebrew, PSP and PS1 entries, with favorites, library groups, Coverflow and a cover grid.
+- Launch Vita games and apps, open Adrenaline, or launch PSP titles directly through Adrenaline. Active Test Utility sessions support return to lumaXMB; Adrenaline must be installed and configured for PSP paths. These remain alpha test features.
 - Browse albums, use Now Playing, play movies and view photos with cover art and previews.
 - Make the XMB your own with PS3, PSP and Vita-inspired presets, waves, colors, layouts, backgrounds, sounds and motion.
 - Browse files and connect over FTP or USB storage.
@@ -55,7 +56,9 @@ Open the Windows app, connect by USB or enter the Vita’s FTP address, then cho
 
 ## Current-build screenshots
 
-Game Coverflow, game grid, movie Coverflow, album Coverflow, Now Playing, Initial Setup and Orbit are captured from lumaXMB 1.98 / r235 in OLED Vivid Tangerine.
+Vita and PSP Coverflow, game grid, movie Coverflow, album Coverflow, Now Playing, Initial Setup, Orbit and wave/startup settings are captured from lumaXMB 1.99 / r236 in OLED Vivid Tangerine.
+
+Screenshots are losslessly encoded from native captures. lumaXMB was captured in Vita3K with idle dimming disabled; Companion 2.0 uses compact native Windows captures. Physical launch and return validation is separate.
 
 View the current banners and all screenshots on the [project page](https://alternativeConsience.github.io/lumaXMB/).
 
