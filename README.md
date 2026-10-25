@@ -66,4 +66,4 @@ Permanent-session startup is not fixed by this release; activation is disabled. 
 
 Installer 2.00 removes the Select+L+R temporary-session stop shortcut, restores the game artwork download option in XMB, and adds a mounted lookup for encrypted installed game backgrounds. Use Test Utility Stop or reboot to end a temporary session. Reboot before starting the updated session module. Background mounting and display still require physical-device validation.
 
-Installer 2.00 fixes the Enhanced profile background blur appearing only in the upper-left quarter. Permanent sessions and autoboot remain disabled; temporary sessions remain available with Select+L+R stopping removed. Build/package and host coordinate checks passed; physical Vita display validation is pending.
+Installer 2.00 fixes the Enhanced profile background blur appearing only in the upper-left quarter. 
