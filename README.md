@@ -2,7 +2,7 @@
 
 **Your Vita, the way it was meant to be played.**
 
-[Project page & setup](https://alternativeconsience.github.io/lumaXMB/#top) · [Desktop Engine for Wallpaper Engine](https://alternativeconsience.github.io/lumaXMB/desktop-engine.html) · [Discord testing channel](https://discord.gg/YSv9PtpZC)
+[Project page & setup](https://alternativeconsience.github.io/lumaXMB/#top) · [Alpha test & log guide](https://alternativeconsience.github.io/lumaXMB/alpha-testing.html) · [Desktop Engine for Wallpaper Engine](https://alternativeconsience.github.io/lumaXMB/desktop-engine.html) · [Discord testing channel](https://discord.gg/YSv9PtpZC)
 
 ## Downloads
 
