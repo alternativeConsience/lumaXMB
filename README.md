@@ -1,0 +1,74 @@
+
+# lumaXMB · Alpha testing
+
+An XMB for your PlayStation Vita. Games, music, video and your own look, in a controller-first interface.
+
+**This is an alpha testing page. Expect bugs and unfinished features.**
+
+[View the project page](https://alternativeConsience.github.io/lumaXMB/) · [Quick installation](#quick-installation) · [Optional companion](#optional-windows-companion) · [Report an issue](https://github.com/alternativeConsience/lumaXMB/issues)
+
+## Downloads
+
+Test package links are being prepared. This repository contains the project page and its images; it does not contain the application source code.
+
+| Application | Use |
+| --- | --- |
+| lumaXMB installer VPK | Test Utility with bundled lumaXMB setup and Launch Assistant |
+| Standalone lumaXMB VPK | Normal VitaShell installation |
+| lumaXMB Companion 2.0 for Windows | Completely optional tools for transfers, themes, media and logs |
+
+## On your Vita
+
+
+
+- Browse Vita games, homebrew, PSP and PS1 entries, with favorites, library groups and Coverflow.
+- Play music and movies, browse photos, and use cover art and media previews.
+- Make the XMB your own with PS3, PSP and Vita-inspired presets, waves, colors, layouts, backgrounds, sounds and motion.
+- Browse files and connect over FTP or USB storage.
+- Test the experimental vitaTUBE, vitaLINK and Spotify integrations.
+
+## Quick installation
+
+You need a homebrew-enabled Vita and VitaShell. **The companion app is completely optional.** Normal drag-and-drop VPK transfer over USB, or FTP transfer, works.
+
+1. Copy the installer VPK to `ux0:/data/install/`.
+2. Install it in VitaShell. Open Test Utility and choose **Set up lumaXMB** to install the bundled app and Launch Assistant.
+3. Launch lumaXMB and complete first-time setup: choose your look, confirm your library options and finish the scan.
+
+Using the standalone lumaXMB VPK? Copy it to the Vita, install it in VitaShell, and launch its bubble directly.
+
+
+
+### Optional plugin setup
+
+
+
+- **Temporary plugins:** active for the current session, until reboot. A practical starting point for testing.
+- **Permanent plugins:** configured to stay active across reboots; managed through Test Utility.
+
+**Autoboot is not recommended and may not function in this alpha. Keep it off.** Permanent plugins and autoboot are separate options.
+
+## Optional Windows companion
+
+The companion is completely optional. lumaXMB works without it.
+
+
+- **Install and update:** transfer VPKs over USB or FTP, stage supported updates, and share paired Wi-Fi updates.
+- **Themes:** load the Vita’s current look, preview appearance settings and waves, and save named presets back to the console.
+- **Media Manager:** add media, manage artwork and configure library folders.
+- **Logs:** collect diagnostic information into a bundle for a bug report.
+
+Open the Windows app, connect by USB or enter the Vita’s FTP address, then choose the task you need.
+
+
+
+## Current-build screenshots
+
+
+View the current banners and all screenshots on the [project page](https://alternativeConsience.github.io/lumaXMB/).
+
+## Feedback
+
+Report issues with the build number, Vita model and firmware, steps to reproduce, and what happened. Screenshots or short clips help.
+
+[Open an issue](https://github.com/alternativeConsience/lumaXMB/issues). [Join the Discord testing channel](https://discord.gg/YSv9PtpZC).
